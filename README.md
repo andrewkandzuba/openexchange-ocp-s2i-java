@@ -33,6 +33,7 @@ Please follow the instructions to get `oc` command installed to your VM.
 /> oc new-app registry.redhat.io/ubi8/openjdk-11~https://github.com/andrewkandzuba/openexchange-ocp-s2i-java.git --name=rest-api-app
 /> oc get all -o wide
 /> oc expose service rest-api-app
+/> oc decribe route rest-api-app
 /> curl -v <ROUTE_URL>/greetings?name=John
 ```
 ## Limitations
