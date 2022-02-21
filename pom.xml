@@ -68,7 +68,6 @@
 
     <modules>
         <module>rest-api</module>
-        <module>domain-model</module>
     </modules>
 
 </project>
